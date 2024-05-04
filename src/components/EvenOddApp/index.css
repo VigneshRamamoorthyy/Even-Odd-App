@@ -1,0 +1,57 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  min-width: 320px;
+
+  height: 300px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .content-container {
+    min-width: 700px;
+    height: 600px;
+  }
+}
+
+.title {
+  color: #0f172a;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: Bold;
+}
+
+.even-odd-text {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 22px;
+}
+
+.increament-btn {
+  color: #1e293b;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 30px;
+  width: 120px;
+}
+
+.increase-random-text {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 500;
+}
